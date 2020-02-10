@@ -1,0 +1,19 @@
+{
+  "name": "my-app",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "create-app-react": "src/index.js"
+  },
+  "author": "Fusemachines Incs",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^3.15.0"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,31 @@
+{
+  "name": "bash_cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "create-app-react": "src/index.js"
+  },
+  "author": "Ajay Gopal Shrestha",
+  "license": "ISC",
+  "dependencies": {
+    "ansi-escapes": "^4.3.0",
+    "download": "^7.1.0",
+    "figlet": "^1.2.4",
+    "inquirer": "^7.0.4",
+    "mkdirp": "^1.0.3",
+    "rimraf": "^3.0.1",
+    "shelljs": "^0.8.3",
+    "yeoman-generator": "^4.5.0",
+    "yosay": "^2.0.2"
+  },
+  "devDependencies": {
+    "yeoman-environment": "^2.7.0",
+    "yo": "^3.1.1",
+    "eslint": "^3.15.0"
+  }
+}
